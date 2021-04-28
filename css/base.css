@@ -16,7 +16,7 @@ html, body {
 body {
 	--color-text: #252528;
 	--color-bg: #afb6bc;
-	--color-link: #252528;
+	--color-link: #3a87b9;
 	--color-link-hover: #252528;
 	--color-menu-text: #252528;
 	--color-bg-move: #afb6bc;
@@ -211,15 +211,15 @@ a:focus {
 	cursor: pointer;
 	padding-bottom: 1rem;
 	-webkit-text-stroke: 2px var(--color-menu-text);
-	text-stroke: 2px var(--color-menu-text);
+	text-shadow: 2px var(--color-menu-text);
 	-webkit-text-fill-color: transparent;
-	text-fill-color: transparent;
+	text-emphasis-color: transparent;
 	color: transparent;
 }
 
 .menu__item:hover {
 	-webkit-text-fill-color: var(--color-menu-text);
-	text-fill-color: var(--color-menu-text);
+	text-emphasis-color: var(--color-menu-text);
 	color: var(--color-menu-text);
 }
 
