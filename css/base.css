@@ -14,12 +14,12 @@ html, body {
 }
 
 body {
-	--color-text: #252528;
-	--color-bg: #afb6bc;
-	--color-link: #3a87b9;
-	--color-link-hover: #252528;
-	--color-menu-text: #252528;
-	--color-bg-move: #afb6bc;
+	--color-text: #070738;
+	--color-bg: #93aabe;
+	--color-link: #ac5f9bea;
+	--color-link-hover: #070738;
+	--color-menu-text: #070738;
+	--color-bg-move: #93aabe;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	font-family: fieldwork-hum, sans-serif;
@@ -358,6 +358,7 @@ a:focus {
 	}
 	.item__content-text {
 		margin-bottom: 0;
+		text-align: justify;
 	}
 }
 
