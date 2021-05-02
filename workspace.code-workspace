@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "DemoavanzadoSPCV",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DemoavanzadoSPCV"
+	}
+}
